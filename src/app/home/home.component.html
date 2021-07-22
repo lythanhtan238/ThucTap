@@ -1,0 +1,93 @@
+<div class="content">
+    <h2>THÊM MỚI HỘ KINH DOANH</h2>
+    <a routerLink="/home" routerLinkActive="router-link-active"  class="back"><mat-icon>arrow_back</mat-icon>Quay lại</a>
+    <form>
+        <h4>THÔNG TIN GIAO DỊCH</h4>
+        <div class="formRow">
+            <mat-grid-list cols='2' rowHeight='62px'>
+                <mat-grid-tile>
+                    <mat-form-field appearance="outline">
+                        <mat-label>Ngày tiếp nhận</mat-label>
+                        <input type="date" matInput>
+                        <mat-error></mat-error>
+                    </mat-form-field>
+                </mat-grid-tile>
+                <mat-grid-tile></mat-grid-tile>
+                <mat-grid-tile>
+                    <mat-form-field appearance="outline">
+                        <mat-label>Người lập hồ sơ</mat-label>
+                        <input type="text" matInput>
+                        <mat-error></mat-error>
+                    </mat-form-field>
+                </mat-grid-tile>
+                <mat-grid-tile>
+                    <mat-form-field appearance="outline">
+                        <mat-label>Người nộp</mat-label>
+                        <input type="text" matInput>
+                        <mat-error></mat-error>
+                    </mat-form-field>
+                </mat-grid-tile>
+            <!-- </mat-grid-list>
+            <mat-grid-list cols='2' rowHeight='fit'> -->
+                <mat-grid-tile>
+                    <mat-form-field appearance="outline">
+                        <mat-label>Số CMND/CCCD</mat-label>
+                        <input type="text" matInput>
+                        <mat-error></mat-error>
+                    </mat-form-field>
+                </mat-grid-tile>
+                <mat-grid-tile>
+                    <mat-form-field appearance="outline">
+                        <mat-label>Số điện thoại</mat-label>
+                        <input type="text" matInput>
+                        <mat-error></mat-error>
+                    </mat-form-field>
+                </mat-grid-tile>
+            </mat-grid-list>
+        </div>
+        <h4>NỘI DUNG GIAO DỊCH</h4>
+        <div class="formRow">
+            <mat-grid-list cols='2' rowHeight='60px'>
+                <mat-grid-tile>
+                    <mat-form-field appearance="outline">
+                        <mat-label>Tên hộ kinh doanh</mat-label>
+                        <input type="text" matInput>
+                        <mat-error></mat-error>
+                    </mat-form-field>
+                </mat-grid-tile>
+                <mat-grid-tile>
+                    <mat-form-field appearance="outline">
+                        <mat-label>Số lượng lao động</mat-label>
+                        <input type="text" matInput>
+                        <mat-error></mat-error>
+                    </mat-form-field>
+                </mat-grid-tile>
+                <mat-grid-tile colspan='2'>
+                    <mat-form-field appearance="outline">
+                        <mat-label>Địa chỉ</mat-label>
+                        <input type="text" matInput>
+                        <mat-error></mat-error>
+                    </mat-form-field>
+                </mat-grid-tile>
+                <mat-grid-tile colspan='2'>
+                    <mat-form-field appearance="outline">
+                        <mat-label>Xã/Phường</mat-label>
+                        <input type="text" matInput>
+                        <mat-error></mat-error>
+                    </mat-form-field>
+                </mat-grid-tile>
+                <mat-grid-tile colspan='2'>
+                    <mat-form-field appearance="outline">
+                        <mat-label>Huyện Tỉnh</mat-label>
+                        <input type="text" matInput>
+                        <mat-error></mat-error>
+                    </mat-form-field>
+                </mat-grid-tile>
+            </mat-grid-list>
+        </div>
+        <div>
+            <button mat-raised-button color="primary"><mat-icon>save</mat-icon> Lưu</button>
+            <button type="reset" mat-raised-button color="secondary"><mat-icon>restart_alt</mat-icon> Làm mới</button>
+        </div>
+    </form>
+</div>
